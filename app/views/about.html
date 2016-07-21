@@ -1,0 +1,24 @@
+<p>This is the about view.</p>
+
+<h2>This is an &lt;h2&gt; tag in the about view</h2>
+
+
+<!-- Stretch Goal: Make an Adding Machine - p.290 -->
+<div ng-app ng-init="firstnum=1;secondnum=2">
+  <input type="number" min="0" ng-model="firstnum">
+  plus
+  <input type="number" min="0" ng-model="secondnum">
+  equals
+  <!-- <b>{{firstnum + secondnum}}</b> -->
+  <span class="label label-success">{{firstnum + secondnum}}</span>
+</div>
+
+<!--
+1. the <ng> attribute lets AngularJS know that inside this <div> is going to be an AngularJS app
+
+2. add <input> elements. Each input defines a new variable, which AngularJS calls a "model"
+So we use the ng-model attribute to assign a name to whatever value gets typed into those <input> elements.
+
+3. Output the sum of the two numbers.
+AngularJS templates use the double curly brace -> {{ ... }} <- syntax to output the value of a variable to the template.
+-->
