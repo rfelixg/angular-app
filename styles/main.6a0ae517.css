@@ -5729,6 +5729,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+div[ng-view].ng-enter {
+  animation: fadeIn 0.5s; }
+
+div[ng-view].ng-leave {
+  animation: fadeOut 0.5s; }
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
