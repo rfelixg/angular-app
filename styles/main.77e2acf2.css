@@ -5735,6 +5735,11 @@ div[ng-view].ng-enter {
 div[ng-view].ng-leave {
   animation: fadeOut 0.5s; }
 
+div[ng-app] {
+  background-color: white;
+  background-image: url("/images/blue4.fc232163.jpg");
+  background-repeat: round; }
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
